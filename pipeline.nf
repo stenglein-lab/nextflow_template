@@ -48,7 +48,7 @@ def usageMessage() {
 }
 
 if (params.help || params.h) {
-    helpMessage()
+    usageMessage()
     exit 0
 }
 
